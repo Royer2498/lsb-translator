@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14272A;
+}
+
+.card {
+    height: 90%;
+    width: 95%;
+    background-color: #F7F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-no-content {
+    font-size: 30px;
+}
+
+.button-container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.send-button {
+    background-color: #15CB64;
+}
+
+.upload-button {
+    background-color: #313638;
+}
+
+.cancel-button {
+    background-color: #D4353A;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    width: 15%;
+    margin: 0px 5px 0px 5px;
+}

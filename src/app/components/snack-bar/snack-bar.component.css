@@ -1,0 +1,21 @@
+.sing-class-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    font-size: 16px;
+    color: 	#FFFFFF;
+}
+
+::ng-deep.mat-snack-bar-container {
+    background-color: #15CB64;
+    width: 250px;
+}
+
+::ng-deep..mat-snack-bar-container {
+    max-width: none;
+}
