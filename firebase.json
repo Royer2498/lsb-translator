@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/tensorflow-prueba",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
