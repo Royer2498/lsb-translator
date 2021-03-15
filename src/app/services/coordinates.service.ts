@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
 export class CoordinatesService {
   private virtualMachineDirection;
   constructor(private http: HttpClient) { 
-    this.virtualMachineDirection = 'http://openpose-virtual-machine.southcentralus.cloudapp.azure.com:3000';
+    this.virtualMachineDirection = 'http://openpose-virtual-machine-server.southcentralus.cloudapp.azure.com:3000';
   }
 
   public async getCoordinatesFromVirtualMachine(file) {

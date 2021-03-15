@@ -5,6 +5,7 @@ import { SIGN_CLASSES } from './config/signClasses';
 import {SnackBarComponent} from './components/snack-bar/snack-bar.component'; 
 import { throwError, TimeoutError } from 'rxjs';
 import * as tf from '@tensorflow/tfjs';
+import {respuesta} from './respuesta';
 
 @Component({
   selector: 'app-root',
